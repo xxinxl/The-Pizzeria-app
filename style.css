@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #order-details {
+    margin-bottom: 20px;
+  }
+  
+  .order-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .order-item h2 {
+    margin-top: 0;
+  }
+  
+  .order-item p {
+    margin: 5px 0;
+  }
+  
+  #total-cost {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

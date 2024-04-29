@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заказ пиццы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Выберите параметры вашей пиццы:</h1>
+    <div id="pizza-options">
+      <label for="totalPizzas">Количество пицц:</label>
+      <input type="number" id="totalPizzas" min="1" value="1">
+      <label for="size">Размер:</label>
+      <select id="size">
+        <option value="Маленькая">Маленькая</option>
+        <option value="Средняя">Средняя</option>
+        <option value="Большая">Большая</option>
+      </select><br>
+      <label for="dough">Тесто:</label>
+      <select id="dough">
+        <option value="Тонкое">Тонкое</option>
+        <option value="Традиционное">Традиционное</option>
+      </select><br>
+      <label for="pizza-name">Название:</label>
+      <select id="pizza-name">
+        <option value="Маргарита">Маргарита</option>
+        <option value="Гавайская">Гавайская</option>
+        <option value="Пепперони">Пепперони</option>
+        <option value="Неаполитанская">Неаполитанская</option>
+        <option value="Сицилийская">Сицилийская</option>
+        <option value="Четыре сезона">Четыре сезона</option>
+        <option value="Каприччиоза">Каприччиоза</option>
+        <option value="Дьябола">Дьябола</option>
+        <option value="Карбонара">Карбонара</option>
+        <option value="Четыре сыра">Четыре сыра</option>
+      </select><br>
+      <label>Топпинги:</label><br>
+      <input type="checkbox" id="cheese" name="toppings" value="cheese">
+      <label for="cheese">Сыр</label><br>
+      <input type="checkbox" id="jalapeno" name="toppings" value="jalapeno">
+      <label for="jalapeno">Халапеньо</label><br>
+      <input type="checkbox" id="pineapple" name="toppings" value="pineapple">
+      <label for="pineapple">Ананас</label><br>
+      <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+      <label for="pepperoni">Пепперони</label><br>
+    </div>
+    <button id="order-button">Заказать</button>
+    <div id="order-details"></div>
+    <div id="total-cost"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
